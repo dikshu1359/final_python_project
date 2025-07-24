@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "content": "what is emotions",
+    "timestamp": "22:54"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I'm having trouble connecting right now. Please try again later.",
+    "timestamp": "22:54"
+  },
+  {
+    "role": "user",
+    "content": "what is emotions",
+    "timestamp": "22:54"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I'm having trouble connecting right now. Please try again later.",
+    "timestamp": "22:54"
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "date": "2024-07-24",
+      "time": "14:30:25",
+      "session_type": "real_time",
+      "emotions": {
+        "Happy": 45,
+        "Sad": 12,
+        "Angry": 8,
+        "Surprise": 15,
+        "Fear": 5,
+        "Disgust": 3,
+        "Neutral": 35
+      },
+      "total_faces_detected": 3,
+      "session_duration": 120,
+      "average_confidence": 0.87
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "date": "2024-07-23",
+      "time": "16:45:10",
+      "session_type": "image_upload",
+      "emotions": {
+        "Happy": 38,
+        "Sad": 18,
+        "Angry": 12,
+        "Surprise": 10,
+        "Fear": 8,
+        "Disgust": 4,
+        "Neutral": 42
+      },
+      "total_faces_detected": 5,
+      "session_duration": 45,
+      "average_confidence": 0.92
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "date": "2024-07-22",
+      "time": "10:15:30",
+      "session_type": "real_time",
+      "emotions": {
+        "Happy": 52,
+        "Sad": 8,
+        "Angry": 15,
+        "Surprise": 18,
+        "Fear": 3,
+        "Disgust": 2,
+        "Neutral": 28
+      },
+      "total_faces_detected": 2,
+      "session_duration": 180,
+      "average_confidence": 0.89
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "date": "2024-07-21",
+      "time": "13:20:45",
+      "session_type": "image_upload",
+      "emotions": {
+        "Happy": 25,
+        "Sad": 30,
+        "Angry": 20,
+        "Surprise": 5,
+        "Fear": 12,
+        "Disgust": 8,
+        "Neutral": 35
+      },
+      "total_faces_detected": 4,
+      "session_duration": 60,
+      "average_confidence": 0.85
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "date": "2024-07-20",
+      "time": "09:30:15",
+      "session_type": "real_time",
+      "emotions": {
+        "Happy": 60,
+        "Sad": 5,
+        "Angry": 10,
+        "Surprise": 12,
+        "Fear": 2,
+        "Disgust": 1,
+        "Neutral": 22
+      },
+      "total_faces_detected": 1,
+      "session_duration": 300,
+      "average_confidence": 0.94
+    }
+  ],
+  "emotion_analytics": {
+    "total_sessions": 5,
+    "total_detections": 646,
+    "most_detected_emotion": "Happy",
+    "least_detected_emotion": "Disgust",
+    "average_session_duration": 161,
+    "emotion_distribution": {
+      "Happy": 220,
+      "Neutral": 162,
+      "Angry": 65,
+      "Surprise": 60,
+      "Sad": 73,
+      "Fear": 30,
+      "Disgust": 18
+    },
+    "daily_stats": {
+      "2024-07-24": {
+        "sessions": 1,
+        "total_detections": 123,
+        "dominant_emotion": "Happy"
+      },
+      "2024-07-23": {
+        "sessions": 1,
+        "total_detections": 132,
+        "dominant_emotion": "Neutral"
+      },
+      "2024-07-22": {
+        "sessions": 1,
+        "total_detections": 126,
+        "dominant_emotion": "Happy"
+      },
+      "2024-07-21": {
+        "sessions": 1,
+        "total_detections": 135,
+        "dominant_emotion": "Neutral"
+      },
+      "2024-07-20": {
+        "sessions": 1,
+        "total_detections": 112,
+        "dominant_emotion": "Happy"
+      }
+    }
+  },
+  "user_stats": {
+    "1": {
+      "total_sessions": 5,
+      "favorite_detection_type": "real_time",
+      "most_active_time": "afternoon",
+      "emotion_pattern": "positive"
+    }
+  },
+  "app_metadata": {
+    "last_updated": "2024-07-24T14:30:25Z",
+    "version": "1.0.0",
+    "total_users": 1,
+    "data_retention_days": 90
+  }
+}
