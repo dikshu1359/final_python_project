@@ -1,4 +1,4 @@
-# 🎭 EmotiDetect AI - Face Emotion Detection App
+# 🎭 EmotiDetect AI - Face Emotion Detection App --http://localhost:8501/
 
 A comprehensive real-time emotion detection application built with Streamlit, OpenCV, Keras, and Gemini AI integration.
 
